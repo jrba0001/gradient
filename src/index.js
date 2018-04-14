@@ -1,5 +1,6 @@
 import Express from "express";
 const app = new Express();
+app.use("/public", Express.static("public"));
 
 app.get("/", (req, res, err) => {
   return res.send(`<html>
