@@ -8,9 +8,9 @@ app.get("/", (req, res, err) => {
     </head>
     <body>
       <div id="app">
-      <h1>Hola</h1>
+      <h1>Hola con nodemon</h1>
       </div>
-
+    <script src="public/js/app.min.js">npm</script>
     </body>
     </html>`);
 });
